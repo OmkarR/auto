@@ -9,7 +9,7 @@
 - Login to application manually before running the test cases to handle first time Alerts
 
 ### File Details
-- HTMLElements.java: Implements WebElement to create WebElements directly locators defined in  properties file.
+- HTMLElements.java: Implements WebElement interface to create WebElements directly using locators defined in  properties file.
 - Application.java: contains all application related operations like launching and gracefully closing the application.
 - Driver.java: Handles initializing WebDriver and maintaining its instance.  
 - OR.properties: Object repository containing all locators information
@@ -17,7 +17,8 @@
 
 ### Test Execution
 - Download this project by clicking 'Download ZIP' button.
-- Unzip the project and cd to project folder.
+- Unzip the project and go to 'calender-jn\src\main\resources' to add Google username and password in application.properties.
+- Then in the command prompt cd to 'calendar-jn' project folder where pom.xml is located.
 - Run this command,
     ``` 
     mvn clean compile test -Dsuite=testng.xml surefire-report:report-only 
