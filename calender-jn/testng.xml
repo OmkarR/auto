@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Google Calendar JN">
+	<test name="Thread - 80" preserve-order="false">
+		<classes>
+			<class name="com.jn.google.scripts.GoogleTests" />
+			</classes>
+	</test>
+
+</suite>
